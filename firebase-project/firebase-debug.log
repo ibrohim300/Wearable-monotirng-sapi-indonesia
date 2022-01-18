@@ -1,0 +1,23 @@
+[debug] [2022-01-09T00:34:00.123Z] ----------------------------------------------------------------------
+[debug] [2022-01-09T00:34:00.129Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ibroh\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-01-09T00:34:00.130Z] CLI Version:   9.23.3
+[debug] [2022-01-09T00:34:00.131Z] Platform:      win32
+[debug] [2022-01-09T00:34:00.131Z] Node Version:  v16.13.1
+[debug] [2022-01-09T00:34:00.133Z] Time:          Sun Jan 09 2022 07:34:00 GMT+0700 (Waktu Indonesia Barat)
+[debug] [2022-01-09T00:34:00.133Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-09T00:34:00.307Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-09T00:34:00.308Z] > authorizing via signed-in user (ibrohim500@gmail.com)
+[debug] [2022-01-09T00:34:00.309Z] [iam] checking project esp32-autentfikasi for permissions ["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2022-01-09T00:34:00.324Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/esp32-autentfikasi:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2022-01-09T00:34:01.869Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 09 Jan 2022 00:34:02 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1183","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-09T00:34:01.877Z] > refreshing access token with scopes: []
+[debug] [2022-01-09T00:34:01.878Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-09T00:34:02.095Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Sun, 09 Jan 2022 00:34:02 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-09T00:34:02.126Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/esp32-autentfikasi [none]
+[debug] [2022-01-09T00:34:02.644Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/esp32-autentfikasi 200
+[debug] [2022-01-09T00:34:02.645Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/esp32-autentfikasi {"projectId":"esp32-autentfikasi","projectNumber":"295196373832","displayName":"esp32 autentfikasi","name":"projects/esp32-autentfikasi","resources":{"hostingSite":"esp32-autentfikasi","realtimeDatabaseInstance":"esp32-autentfikasi-default-rtdb"},"state":"ACTIVE"}
+[debug] [2022-01-09T00:34:02.647Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/esp32-autentfikasi [none]
+[debug] [2022-01-09T00:34:03.066Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/esp32-autentfikasi 200

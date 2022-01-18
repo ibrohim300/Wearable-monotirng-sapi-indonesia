@@ -1,0 +1,18 @@
+{
+  "rules": {
+    ".read": "auth != null", 
+    ".write": "auth != null"
+  }
+}
+// These rules grant access to a node matching the authenticated
+// user's ID from the Firebase auth token
+// {
+//   "rules": {
+//     "CowHealth": {
+//       "$uid": {
+//         ".read": "$uid === auth.uid",
+//         ".write": "$uid === auth.uid"
+//       }
+//     }
+//   }
+// }
