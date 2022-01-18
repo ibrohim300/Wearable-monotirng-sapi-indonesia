@@ -8,5 +8,4 @@ Beberapa fitur dari wearable ini:
 Silahkan langsunbg di download saja.
 berikut gambar perangkat wearbale dan juga receivernya:
 ![SI_20220109_220849 - Copy](https://user-images.githubusercontent.com/83158809/149853846-53dcbe94-9224-4473-9747-bdfedcc6fb83.png)
-[SI_20220109_140857 - Copy](https://user-images.githubusercontent.com/83158809/149853862-5d3e7977-aa19-4da7-8630-1967b8be88bc.png)
-
+![SI_20220109_140857 - Copy](https://user-images.githubusercontent.com/83158809/149854641-31d6e0ef-11ef-43fb-a7d8-9d99a0f12a36.png)
